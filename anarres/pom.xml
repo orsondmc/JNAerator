@@ -11,14 +11,14 @@
 
 	<parent>
 		<groupId>com.nativelibs4java</groupId>
-		<artifactId>nativelibs4java-parent</artifactId>
-		<version>1.10-SNAPSHOT</version>
+		<artifactId>jnaerator-parent</artifactId>
+		<version>0.13-SNAPSHOT</version>
 	</parent>
-	
+
 	<properties>
 		<mainClass>org.anarres.cpp.Main</mainClass>
 	</properties>
-	
+
 	<developers>
 		<developer>
 			<id>anarres.author</id>
@@ -32,7 +32,7 @@
 			<name>Apache 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
 			<distribution>repo</distribution>
-			<comments>Anarres JCPP was patched with some modifications for use in JNAerator.. 
+			<comments>Anarres JCPP was patched with some modifications for use in JNAerator..
 	  Diffs are trivial to make with Original Anarres SVN repository : https://svn.anarres.org/svn/repos/code/java/cpp/trunk/</comments>
 		</license>
 	</licenses>
@@ -69,7 +69,7 @@
 				<artifactId>maven-velocity-plugin</artifactId>
         <version>0.8</version>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
