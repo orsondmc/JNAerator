@@ -25,7 +25,20 @@
     <connection>scm:git:git@github.com:nativelibs4java/JNAerator.git</connection>
     <developerConnection>scm:git:git@github.com:nativelibs4java/JNAerator.git</developerConnection>
     <url>http://github.com/nativelibs4java/JNAerator</url>
-  </scm>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/deathbeam/JNAerator</url>
+		</repository>
+		<snapshotRepository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/deathbeam/JNAerator</url>
+		</snapshotRepository>
+	</distributionManagement>
 
   <repositories>
     <repository>
