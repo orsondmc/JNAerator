@@ -17,7 +17,8 @@
   <properties>
     <bridj.version>0.7.1-SNAPSHOT</bridj.version>
     <jna.version>5.9.0</jna.version>
-    <rococoa.version>0.5</rococoa.version>
+		<rococoa.version>0.5</rococoa.version>
+		<skipTests>true</skipTests>
   </properties>
 
   <scm>
